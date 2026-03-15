@@ -199,7 +199,7 @@
       </div>
     </div>
     <template v-else>
-      <div class="mt-4 mb-1">
+      <div class="mt-4 mb-4">
         <div class="progress w-50 mx-auto">
           <div
             class="progress-bar text-dark"
@@ -213,7 +213,7 @@
           </div>
         </div>
         <div
-          class="w-50 mx-auto d-flex justify-content-between text-center progress-text"
+          class="w-50 mx-auto d-flex justify-content-between text-center progress-text mt-1"
         >
           <p class="my-0 text-uppercase">
             {{ T.courseDetailsProgress }}
